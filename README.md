@@ -3,7 +3,7 @@ The server formats email using a template and sends it to the recepient. It is c
 
 nginx,PHP, sendmail required
 
-#API
+# API
 POST /send (send.php) - send e-mail
 POST /preview (preview.php) - preview e-email
 
