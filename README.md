@@ -1,5 +1,7 @@
 # sendmailserver
-Server formats email using a template and sends it to the recepient. Controller by REST interface. nginx,PHP, sendmail required
+The server formats email using a template and sends it to the recepient. It is controlled through the REST interface.
+
+nginx,PHP, sendmail required
 
 #API
 POST /send (send.php) - send e-mail
