@@ -23,6 +23,7 @@ if (!$req) {
 
 $templateName = $req["template"];
 $recepient = $req["recepient"];
+$sender=NULL;
 $data = $req["data"];
 
 if (!$templateName) {
